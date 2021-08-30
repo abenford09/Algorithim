@@ -1,4 +1,4 @@
-// Given a string of random numbers, write an algorithm that returns the most repeateed element in the string.
+// Given a string of random numbers, write an algorithm that returns the most repeated element in the string.
 
 function mostCommon(str) {
     // Loop over str and populate object 
