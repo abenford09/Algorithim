@@ -21,7 +21,7 @@ const obj1 = {}
 const obj2 = {}
 
 // Loop 1
-str1.split('').array.forEach(elem => {
+setStr1.split(' ').forEach(elem => {
     if(!obj1[elem]){
         obj1[elem] = 1
     } else {
@@ -29,7 +29,7 @@ str1.split('').array.forEach(elem => {
     }
 });
 // Loop 2
-str2.split('').array.forEach(elem => {
+setStr2.split(' ').forEach(elem => {
     if(!obj2[elem]){
         obj2[elem] = 1
     } else {
