@@ -16,6 +16,7 @@ function arrayOfNumbers(array) {
   };
   count = 1 
   for (let a = array.length-1; a >= 0; a--) {
+      console.log(array)
     myArray[a] *= count
     count *= array[a]
   }
@@ -29,3 +30,27 @@ console.log(arrayOfNumbers(array))
 
 
 console.log('works')
+
+
+// function test(arr) {
+//     // Cacheing
+//     // O(n)
+//     const totalProdcut = calculateProduct(arr)
+//     const returnArray = []
+//     // O(n)
+//     for(let i = 0; i < arr.length; i++) {
+//         let current = arr[i]
+//         returnArray.push(totalProdcut / current)
+//     }
+//     return returnArray
+// }
+// function calculateProduct(arr) {
+//     let product = 1
+//     for(let i = 0; i < arr.length; i++) {
+//         let current = arr[i]
+//         product = product * current
+//     }
+//     return product
+// }
+// const arr = [4, 5, 6, 7]
+// console.log(test(arr))
