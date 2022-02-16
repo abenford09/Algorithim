@@ -29,7 +29,7 @@ function pal2(str) {
 function pal3(str) {
     let reversed = ''
 
-    // loop through string
+    // loop through string in reverse
     for(let i = str.length - 1; i >= 0; i--) {
         let current = str[i]
         reversed = reversed + current

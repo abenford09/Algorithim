@@ -4,22 +4,22 @@
 // Output should be an array of two element that add up to number
 // return false
 
-const arr = [1,2,3,4,5,4,3,2,1]
-const number = 7
-const reducer = (accumulator, currentValue) => accumulator + currentValue;
-reduce= arr.reduce(reducer)
+// const arr = [1,2,3,4,5,4,3,2,1]
+// const number = 7
 // const reducer = (accumulator, currentValue) => accumulator + currentValue;
-// arr.reduce(reducer)
-// console.log(array1.reduce(reducer));
-function findNumbersThatAddUpToGivenNumber(arr, number) {
-// This is where you would write you code.
+// reduce= arr.reduce(reducer)
+// // const reducer = (accumulator, currentValue) => accumulator + currentValue;
+// // arr.reduce(reducer)
+// // console.log(array1.reduce(reducer));
+// function findNumbersThatAddUpToGivenNumber(arr, number) {
+// // This is where you would write you code.
 
-    if(number > reduce) {
-        return false
-    } else {
-        return true
-    }
-}
+//     if(number > reduce) {
+//         return false
+//     } else {
+//         return true
+//     }
+// }
 
 
 const twoSum = (arr, targetNum) => {

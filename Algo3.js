@@ -52,3 +52,38 @@ for (let elem1 in obj1) {
 }
 
 console.log(canThisTextMakeThatText(magazineText,note))
+
+////////////////////////////
+
+function anagram (text,note) {
+    // create  obj
+    const noteArray =  note.split(' ')
+    const obj = makeObj(text,split(" "))
+
+    for(let i = 0; i <noteArray.length; i++) {
+        let current = noterray[i]
+        if(obj[current] && obj[current] > 0) {
+            obj[current]--
+        } else {
+            return false
+        }
+    }
+}
+
+function makeObj(arr) {
+    const obj = {}
+
+    for(let i= 0; i < arr.length; i ++) {
+        let current = arr[i]
+        if(!obj[current]) {
+            obj[current]= 1
+        } else {
+            obj[current]++
+        }
+    }
+    return obj
+}
+
+// text1 = 'apple tree'
+// note1= 'apple tree'
+// console.log(anigram(text1,note1))

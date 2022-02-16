@@ -25,7 +25,6 @@ function getHighestValueInGivenObject(obj) {
 function populateObject(str) {
     // Create empty object to populate
     const obj = {}
-
     // loop over the string, populate object
     for (let i = 0; i < str.length; i++) {
         let current = str[i]
@@ -39,5 +38,5 @@ function populateObject(str) {
     return obj
 }
 
-const str = '145677'
+const str = '1456777789'
 console.log(mostCommon(str))

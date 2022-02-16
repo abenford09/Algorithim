@@ -15,7 +15,7 @@ function arrayOfNumbers(array) {
     // myArray.push(array[i])
   };
   count = 1 
-  for (let a = array.length-1; a >= 0; a--) {
+  for(let a = array.length-1; a >= 0; a--) {
       console.log(array)
     myArray[a] *= count
     count *= array[a]
@@ -24,9 +24,6 @@ function arrayOfNumbers(array) {
 };
 
 console.log(arrayOfNumbers(array))
-
-
-
 
 
 console.log('works')
